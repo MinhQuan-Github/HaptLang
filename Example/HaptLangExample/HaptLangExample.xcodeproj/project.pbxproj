@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0060044D55099C7253405D28 /* ContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8D8066A9D44B40BA12555 /* ContentScreen.swift */; };
+		16933957D721E5086052B4F0 /* HaptLangExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8F024AB5012D9641D23CF /* HaptLangExampleApp.swift */; };
+		2F2ED413DC90888AD81D0A89 /* HaptLangExample.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 28FED36921D301F340B930A6 /* HaptLangExample.xcodeproj */; };
+		7C8FF33F3A308EDCD07E77F0 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BACCA4BFFEA81ECDFD3D46 /* SettingsScreen.swift */; };
+		9C8D2C309DE5B5405CE6B379 /* LanguageSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21093969F00A099B2E740401 /* LanguageSelectionScreen.swift */; };
+		C14E57F5EED039A9E16EA360 /* HaptLang in Frameworks */ = {isa = PBXBuildFile; productRef = C548A8DF3A5DCF19FDDE3B24 /* HaptLang */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21093969F00A099B2E740401 /* LanguageSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionScreen.swift; sourceTree = "<group>"; };
+		28FED36921D301F340B930A6 /* HaptLangExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HaptLangExample.xcodeproj; sourceTree = "<group>"; };
+		36C8D8066A9D44B40BA12555 /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
+		63BACCA4BFFEA81ECDFD3D46 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		C9A71FD9F8E82126CF9EA63A /* HaptLangExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaptLangExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD885B75B42DFCC2511E9FC6 /* HaptLang */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HaptLang; path = ../..; sourceTree = SOURCE_ROOT; };
+		D2B8F024AB5012D9641D23CF /* HaptLangExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaptLangExampleApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B8287378840E088C73D18E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14E57F5EED039A9E16EA360 /* HaptLang in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003174422F2E096700AD43BE /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4820CFBE156C3893E6086E85 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CD885B75B42DFCC2511E9FC6 /* HaptLang */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		4D4880B7949CC545665A5908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A71FD9F8E82126CF9EA63A /* HaptLangExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22F9A5E0B72AB882A788DE0 = {
+			isa = PBXGroup;
+			children = (
+				BA0424DB396ECB36938287FA /* HaptLangExample */,
+				4820CFBE156C3893E6086E85 /* Packages */,
+				4D4880B7949CC545665A5908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0424DB396ECB36938287FA /* HaptLangExample */ = {
+			isa = PBXGroup;
+			children = (
+				36C8D8066A9D44B40BA12555 /* ContentScreen.swift */,
+				28FED36921D301F340B930A6 /* HaptLangExample.xcodeproj */,
+				D2B8F024AB5012D9641D23CF /* HaptLangExampleApp.swift */,
+				21093969F00A099B2E740401 /* LanguageSelectionScreen.swift */,
+				63BACCA4BFFEA81ECDFD3D46 /* SettingsScreen.swift */,
+			);
+			name = HaptLangExample;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D50068D0B34CC0662BDCF5 /* HaptLangExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E859C63F044B1631733FBA00 /* Build configuration list for PBXNativeTarget "HaptLangExample" */;
+			buildPhases = (
+				00C39C8EB78AB98D33BD9486 /* Sources */,
+				193BFBE874FE4E559A3F5A1E /* Resources */,
+				45B8287378840E088C73D18E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaptLangExample;
+			packageProductDependencies = (
+				C548A8DF3A5DCF19FDDE3B24 /* HaptLang */,
+			);
+			productName = HaptLangExample;
+			productReference = C9A71FD9F8E82126CF9EA63A /* HaptLangExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C7F7163B7A81D2BB68613B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 1DB157C186D403904731DD93 /* Build configuration list for PBXProject "HaptLangExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B22F9A5E0B72AB882A788DE0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C4C6F835D2A1A3EE7B2E5FB6 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 003174422F2E096700AD43BE /* Products */;
+					ProjectRef = 28FED36921D301F340B930A6 /* HaptLangExample.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				95D50068D0B34CC0662BDCF5 /* HaptLangExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193BFBE874FE4E559A3F5A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2ED413DC90888AD81D0A89 /* HaptLangExample.xcodeproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C39C8EB78AB98D33BD9486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0060044D55099C7253405D28 /* ContentScreen.swift in Sources */,
+				16933957D721E5086052B4F0 /* HaptLangExampleApp.swift in Sources */,
+				9C8D2C309DE5B5405CE6B379 /* LanguageSelectionScreen.swift in Sources */,
+				7C8FF33F3A308EDCD07E77F0 /* SettingsScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0457B0865DE031FA9ACA5C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHD85U93TL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuanDo.HaptLangExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C630E3989ECFC3738FE5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A357460504CD795BD956C192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2BD489E82E8718B7EA15BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHD85U93TL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuanDo.HaptLangExample;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB157C186D403904731DD93 /* Build configuration list for PBXProject "HaptLangExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A357460504CD795BD956C192 /* Debug */,
+				27C630E3989ECFC3738FE5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E859C63F044B1631733FBA00 /* Build configuration list for PBXNativeTarget "HaptLangExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BD489E82E8718B7EA15BB3 /* Debug */,
+				0457B0865DE031FA9ACA5C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C4C6F835D2A1A3EE7B2E5FB6 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C548A8DF3A5DCF19FDDE3B24 /* HaptLang */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HaptLang;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7C7F7163B7A81D2BB68613B /* Project object */;
+}

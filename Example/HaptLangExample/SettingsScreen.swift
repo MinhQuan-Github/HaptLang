@@ -1,4 +1,5 @@
 import SwiftUI
+import HaptLang
 
 /// Screen 2: Settings Screen
 /// Shows various settings options with localized labels
@@ -91,7 +92,11 @@ struct SettingsScreen: View {
         .navigationBarTitleDisplayMode(.large)
         .sheet(isPresented: $showingLanguageSelection) {
             NavigationView {
-                LanguageSelectionScreen()
+                if #available(iOS 15.0, *) {
+                    LanguageSelectionScreen()
+                } else {
+                    EmptyView()
+                }
             }
         }
     }

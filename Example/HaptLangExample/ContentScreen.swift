@@ -1,4 +1,5 @@
 import SwiftUI
+import HaptLang
 
 /// Screen 1: Content Screen
 /// Displays localized content that updates when the language changes

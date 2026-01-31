@@ -1,10 +1,11 @@
 import SwiftUI
+import HaptLang
 
 /// Screen 3: Language Selection Screen
 /// Allows users to select their preferred language
 struct LanguageSelectionScreen: View {
     @ObservedObject var langManager = HaptLangManager.shared
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
         List {
@@ -21,9 +22,7 @@ struct LanguageSelectionScreen: View {
                         language: language,
                         isSelected: langManager.currentLanguage == language
                     ) {
-                        withAnimation(.easeInOut(duration: 0.2)) {
-                            langManager.setLanguage(language)
-                        }
+                        langManager.setLanguage(language)
                     }
                 }
             }
@@ -33,7 +32,7 @@ struct LanguageSelectionScreen: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
-                    dismiss()
+                    presentationMode.wrappedValue.dismiss()
                 } label: {
                     Image(systemName: "xmark.circle.fill")
                         .foregroundColor(.secondary)

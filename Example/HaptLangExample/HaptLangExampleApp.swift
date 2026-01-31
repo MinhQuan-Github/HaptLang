@@ -1,4 +1,5 @@
 import SwiftUI
+import HaptLang
 
 @main
 struct HaptLangExampleApp: App {
@@ -12,26 +13,37 @@ struct HaptLangExampleApp: App {
 
 struct MainTabView: View {
     @ObservedObject var langManager = HaptLangManager.shared
+    @State private var selectedTab = 0
 
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab) {
             NavigationView {
                 ContentScreen()
             }
+            .navigationViewStyle(.stack)
+            .tag(0)
             .tabItem {
-                Image(systemName: "doc.text")
-                Text(L10n.contentTitle)
+                Label {
+                    Text(L10n.contentTitle)
+                } icon: {
+                    Image(systemName: "doc.text")
+                }
             }
 
             NavigationView {
                 SettingsScreen()
             }
+            .navigationViewStyle(.stack)
+            .tag(1)
             .tabItem {
-                Image(systemName: "gear")
-                Text(L10n.settingsTitle)
+                Label {
+                    Text(L10n.settingsTitle)
+                } icon: {
+                    Image(systemName: "gear")
+                }
             }
         }
-        .id(langManager.currentLanguage.code) // Force tab bar to update
+        // No .id() modifier - preserves navigation state
     }
 }
 

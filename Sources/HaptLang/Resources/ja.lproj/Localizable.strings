@@ -1,0 +1,34 @@
+/*
+  Localizable.strings (Japanese)
+  HaptLang
+
+  Created by MinhQuan-Github.
+*/
+
+// MARK: - General
+"general.welcome" = "HaptLangへようこそ";
+"general.description" = "iOS用動的ローカライゼーション";
+"general.language" = "言語";
+
+// MARK: - Content Screen
+"content.title" = "コンテンツ";
+"content.greeting" = "こんにちは、世界！";
+"content.message" = "このテキストは、別の言語を選択すると動的に変わります。";
+"content.feature1" = "リアルタイム言語切り替え";
+"content.feature2" = "アプリの再起動不要";
+"content.feature3" = "SwiftUIとUIKitをサポート";
+
+// MARK: - Settings Screen
+"settings.title" = "設定";
+"settings.language" = "言語";
+"settings.currentLanguage" = "現在の言語";
+"settings.selectLanguage" = "言語を選択";
+"settings.notifications" = "通知";
+"settings.darkMode" = "ダークモード";
+"settings.about" = "情報";
+"settings.version" = "バージョン";
+
+// MARK: - Language Selection
+"languageSelection.title" = "言語を選択";
+"languageSelection.description" = "お好みの言語を選択してください。アプリはすぐに更新されます。";
+"languageSelection.current" = "現在";

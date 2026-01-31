@@ -1,0 +1,9 @@
+strings:
+  inputs:
+    - Sources/HaptLang/Resources/en.lproj/Localizable.strings
+  outputs:
+    - templatePath: swiftgen-template.stencil
+      output: Sources/HaptLang/Generated/Strings+Generated.swift
+      params:
+        enumName: L10n
+        publicAccess: true

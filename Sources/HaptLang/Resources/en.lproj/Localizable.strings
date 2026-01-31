@@ -1,0 +1,34 @@
+/*
+  Localizable.strings (English)
+  HaptLang
+
+  Created by MinhQuan-Github.
+*/
+
+// MARK: - General
+"general.welcome" = "Welcome to HaptLang";
+"general.description" = "Dynamic localization for iOS";
+"general.language" = "Language";
+
+// MARK: - Content Screen
+"content.title" = "Content";
+"content.greeting" = "Hello, World!";
+"content.message" = "This text changes dynamically when you select a different language.";
+"content.feature1" = "Real-time language switching";
+"content.feature2" = "No app restart required";
+"content.feature3" = "Supports SwiftUI and UIKit";
+
+// MARK: - Settings Screen
+"settings.title" = "Settings";
+"settings.language" = "Language";
+"settings.currentLanguage" = "Current Language";
+"settings.selectLanguage" = "Select Language";
+"settings.notifications" = "Notifications";
+"settings.darkMode" = "Dark Mode";
+"settings.about" = "About";
+"settings.version" = "Version";
+
+// MARK: - Language Selection
+"languageSelection.title" = "Select Language";
+"languageSelection.description" = "Choose your preferred language. The app will update immediately.";
+"languageSelection.current" = "Current";

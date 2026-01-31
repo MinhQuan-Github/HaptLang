@@ -1,0 +1,34 @@
+/*
+  Localizable.strings (Vietnamese)
+  HaptLang
+
+  Created by MinhQuan-Github.
+*/
+
+// MARK: - General
+"general.welcome" = "Chào mừng đến với HaptLang";
+"general.description" = "Bản địa hoá động cho iOS";
+"general.language" = "Ngôn ngữ";
+
+// MARK: - Content Screen
+"content.title" = "Nội dung";
+"content.greeting" = "Xin chào, Thế giới!";
+"content.message" = "Văn bản này thay đổi tự động khi bạn chọn ngôn ngữ khác.";
+"content.feature1" = "Chuyển đổi ngôn ngữ theo thời gian thực";
+"content.feature2" = "Không cần khởi động lại ứng dụng";
+"content.feature3" = "Hỗ trợ SwiftUI và UIKit";
+
+// MARK: - Settings Screen
+"settings.title" = "Cài đặt";
+"settings.language" = "Ngôn ngữ";
+"settings.currentLanguage" = "Ngôn ngữ hiện tại";
+"settings.selectLanguage" = "Chọn ngôn ngữ";
+"settings.notifications" = "Thông báo";
+"settings.darkMode" = "Chế độ tối";
+"settings.about" = "Giới thiệu";
+"settings.version" = "Phiên bản";
+
+// MARK: - Language Selection
+"languageSelection.title" = "Chọn ngôn ngữ";
+"languageSelection.description" = "Chọn ngôn ngữ ưa thích của bạn. Ứng dụng sẽ cập nhật ngay lập tức.";
+"languageSelection.current" = "Hiện tại";
